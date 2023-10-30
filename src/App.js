@@ -6,6 +6,7 @@ import FeaturesSection from './components/FeaturesSection';
 import AboutCompany from './components/AboutCompany';
 import OurService from './components/OurService';
 import ChooseUs from './components/ChooseUs';
+import ProjectCase from './components/ProjectCase';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <AboutCompany />
       <OurService />
       <ChooseUs />
+      <ProjectCase />
       </main>
       
        

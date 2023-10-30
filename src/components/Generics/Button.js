@@ -1,11 +1,23 @@
-import React from 'react'
+import React from 'react';
 
-const Button = ({text ,url}) => {
+const Button = ({ type, text, url }) => {
+  const getButtonClassName = () => {
+    switch (type) {
+      case 'yellow':
+        return 'btn-yellow';
+      case 'black':
+        return 'btn-black';
+      default:
+        return 'btn-transparent';
+    }
+  }
+
   return (
-    <a className="btn-yelloW" href={url}>
-         {text} 
-         <i className="fa-solid fa-arrow-up"></i></a>
+    <a className={getButtonClassName()} href={url}>
+      {text}
+      <i className="fa-solid fa-arrow-up"></i>
+    </a>
   )
 }
 
-export default Button
+export default Button;

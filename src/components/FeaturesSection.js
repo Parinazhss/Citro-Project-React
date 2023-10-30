@@ -17,7 +17,7 @@ const FeaturesSection = () => {
   <div className="container">
   <p>Feature</p>
   <h2>Our Accounting is  trusted by thousand of companies</h2>
-  <Button text="Learn More" url="Learnmore.html" /> 
+  <Button type="yellow" text="Learn More" url="Learnmore.html" /> 
 </div> 
 
 

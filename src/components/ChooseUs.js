@@ -1,5 +1,10 @@
 import React from 'react'
-
+import img_firsticon from '../assets/images/1st.icon.svg'
+import img_secondicon from '../assets/images/2nd.icon.svg'
+import img_thirdicon from '../assets/images/3rd.icon.svg'
+import img_fourthicon from '../assets/images/4th.icon.svg'
+import img_women from '../assets/images/two.women.svg'
+ 
 const ChooseUs = () => {
   return (
     <section className="choose">
@@ -12,26 +17,26 @@ const ChooseUs = () => {
     </div>
 
        
-        <img src="images/1st.icon.svg" alt=""/>
+         <img classNeme="firsticon" src={img_firsticon} alt=""/>
         <div className="icon.1"> 
         <h5>Process Excellence</h5>
         <p>Lorem, ipsum dolor sit amet consectetur.</p>
        </div> 
   
       <div className="icon.2">
-        <img src="images/2nd.icon.svg" alt=""/>
+      <img classNeme="secondicon" src={img_secondicon} alt=""/>
         <h5>Strategic Planning</h5>
         <p>Lorem, ipsum dolor sit amet consectetur.</p>
       </div>
   
       <div className="icon.3">
-        <img src="images/3rd.icon.svg" alt="" />
+      <img classNeme="thirdicon" src={img_thirdicon} alt=""/>
         <h5>Experience Design</h5>
         <p>Lorem, ipsum dolor sit amet consectetur.</p>
       </div>
   
       <div className="icon.4">
-        <img src="images/4th.icon.svg" alt="" />
+      <img classNeme="fourthicon" src={img_fourthicon} alt=""/>
         <h5>Artificial Inteligence</h5>
         <p>Lorem, ipsum dolor sit amet consectetur.</p>
       </div>
@@ -41,7 +46,7 @@ const ChooseUs = () => {
     <div className="parent">
       <div className=" back-box">
         
-         <div className="image"><img src="images/two.women.svg" alt="" /> </div>
+         <img className="image" src={img_women} alt="" /> 
 
       </div>
   </div>
