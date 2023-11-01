@@ -7,7 +7,8 @@ const Container = () => {
   return (
     <div className="container">
       <button className="btn-menubars"><i className="fa-regular fa-bars"></i></button>
-     <a href="home.html"> <img className="logotype" src={logotype} alt="" /></a>
+     <a href="home.html"> 
+     <img className="logotype" src={logotype} alt="" /></a>
         
       
       
@@ -39,7 +40,7 @@ const Container = () => {
                  <a href="news.html">News</a>
                  <a href="contacts.html">contacts</a>
         </nav>
-        <Button text="Logoin" url="logoin.html" />
+        <Button  type = "yellow" text="Logoin" url="logoin.html" />
 
       </div>   
     </div>

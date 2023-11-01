@@ -847,6 +847,7 @@ header .container .menu .btn-login {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: left;
   position: relative;
   left: 10px;
 }
