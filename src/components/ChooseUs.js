@@ -17,26 +17,26 @@ const ChooseUs = () => {
     </div>
 
        
-         <img classNeme="firsticon" src={img_firsticon} alt=""/>
+         <img className="firsticon" src={img_firsticon} alt=""/>
         <div className="icon.1"> 
         <h5>Process Excellence</h5>
         <p>Lorem, ipsum dolor sit amet consectetur.</p>
        </div> 
   
       <div className="icon.2">
-      <img classNeme="secondicon" src={img_secondicon} alt=""/>
+      <img className="secondicon" src={img_secondicon} alt=""/>
         <h5>Strategic Planning</h5>
         <p>Lorem, ipsum dolor sit amet consectetur.</p>
       </div>
   
       <div className="icon.3">
-      <img classNeme="thirdicon" src={img_thirdicon} alt=""/>
+      <img className="thirdicon" src={img_thirdicon} alt=""/>
         <h5>Experience Design</h5>
         <p>Lorem, ipsum dolor sit amet consectetur.</p>
       </div>
   
       <div className="icon.4">
-      <img classNeme="fourthicon" src={img_fourthicon} alt=""/>
+      <img className="fourthicon" src={img_fourthicon} alt=""/>
         <h5>Artificial Inteligence</h5>
         <p>Lorem, ipsum dolor sit amet consectetur.</p>
       </div>

@@ -801,12 +801,13 @@ header .container .menu .btn-login {
 }
 .meet-our-team .container .punkter {
   position: relative;
-  left: 30%;
+  
 }
 @media (min-width: 768px) {
   .meet-our-team .container .punkter {
     position: relative;
-    left: 45%;
+    left: 20%;
+ 
   }
 }
 .meet-our-team .container .parent .box {
@@ -1097,14 +1098,30 @@ header .container .menu .btn-login {
 .contact-form {
   margin-bottom: 90px;
   margin-top: 90px;
+  position: relative;
+ 
 }
 .contact-form .container {
   width: 100%;
   padding: 40px;
   background-color: #F0EFE9;
-  margin-right: 28%;
+
   align-items: center;
   text-align: center;
+  position: relative;
+  left: 17%;
+  z-index: 0;
+}
+.contact-form .container span {
+
+font-size: 0.9em;
+color: #F94D1C;
+}
+
+.error {
+  color: #F94D1C;
+  background-color: #cbc9c9;
+  border: 1px solid rosybrown;
 }
 .contact-form .container h1 {
   font-family: "DM Sans", sans-serif;
@@ -1131,19 +1148,18 @@ header .container .menu .btn-login {
   text-align: start;
   margin-bottom: 30px;
 }
-.contact-form .container .btn-yelloW {
+.contact-form .container .btn-yellow {
   padding: 12px 40%;
 }
 
+.location-map .container {
+  position: relative;
+  max-width: 100%;
+} 
+
 .location-map .container img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-@media (max-width: 768px) {
-  .location-map .container #image {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
+  position: relative;
+  max-width: 100%;
+  left: 10%;
+  
 }

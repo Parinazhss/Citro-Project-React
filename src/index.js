@@ -20,11 +20,12 @@ root.render(
   
     <BrowserRouter >
     <Routes>
-      <Route path='/Home' element= {<Home/>} />
-      <Route path='/Contact' element= {<Contact/>} />
+      <Route path='/' element= {<Home/>} />
+      <Route path='/Contacts' element= {<Contact/>} />
       <Route path='/News' element= {<News/>} />
       <Route path='/NewsArtikel' element= {<NewsArtikel/>} />
       <Route path='*' element= {<Notfound/>} />
+     
 
       
 

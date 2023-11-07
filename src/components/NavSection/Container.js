@@ -2,13 +2,14 @@ import './Container.css'
 import React from 'react'
 import logotype from '../../assets/images/Logo.svg'
 import Button from '../Generics/Button'
+import { NavLink , Link } from 'react-router-dom'
 
 const Container = () => {
   return (
     <div className="container">
       <button className="btn-menubars"><i className="fa-regular fa-bars"></i></button>
-     <a href="home.html"> 
-     <img className="logotype" src={logotype} alt="" /></a>
+     <Link to="/"> 
+     <img className="logotype" src={logotype} alt="" /></Link>
         
       
       
@@ -35,12 +36,12 @@ const Container = () => {
       </div>
       <div className="menu"> 
         <nav>
-          <a className="activ" href="home.html">Home</a>
-                 <a href="services.html">Service</a>
-                 <a href="news.html">News</a>
-                 <a href="contacts.html">contacts</a>
+                 <NavLink  to="/"> Home</NavLink>
+                 <NavLink to="/services">Services</NavLink>
+                 <NavLink to="/news">News</NavLink>
+                 <NavLink to="/contacts">contacts</NavLink>
         </nav>
-        <Button  type = "yellow" text="Logoin" url="logoin.html" />
+        <Link to="/contacts" className="btn-yellow">Logoin  <i className="fa-solid fa-arrow-up"></i></Link>
 
       </div>   
     </div>
