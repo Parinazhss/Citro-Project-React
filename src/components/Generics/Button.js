@@ -3,6 +3,7 @@ import React from 'react';
 const Button = ({ type, text, url }) => {
   const getButtonClassName = () => {
     switch (type) {
+      
       case 'yellow':
         return 'btn-yellow';
       case 'black':

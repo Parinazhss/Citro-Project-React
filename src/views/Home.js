@@ -3,7 +3,7 @@ import App from '../App'
 
 const Home = () => {
   return (
-    <div classNme="wrapper">
+    <div className="wrapper">
       <App />
 
     </div>

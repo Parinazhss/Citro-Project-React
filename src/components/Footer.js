@@ -22,39 +22,39 @@ const Footer = () => {
 
     <div  className="menu"> 
     <div  className="Company">
-      <a href="#"><h5>Company</h5></a>
+      <h5>Company</h5>
       <br />
-    <a href="#"><p>About  </p></a>
-    <a href="#"><p>Features</p></a>
-    <a href="#"><p>Works  </p></a>
-    <a href="#"><p>Career  </p></a>
+    <p>About  </p>
+    <p>Features</p>
+    <p>Works  </p>
+    <p>Career  </p>
     </div>
 
     <div  className="Company">
-      <a href="#"><h5>Help</h5></a>
+      <h5>Help</h5>
       <br />
-    <a href="#"><p>Customer Support  </p></a>
-    <a href="#"><p>Delivery Details    </p></a>
-    <a href="#"><p>Terms & Conditions </p></a>
-    <a href="#"><p>Privacy Policy </p></a>
+    <p>Customer Support  </p>
+   <p>Delivery Details    </p>
+    <p>Terms & Conditions </p>
+    <p>Privacy Policy </p>
     </div>
 
     <div  className="Company">
-      <a href="#"><h5>Resources</h5></a>
+      <h5>Resources</h5>
       <br />
-    <a href="#"><p>Free eBooks</p></a>
-    <a href="#"><p>Development Tutorial</p></a>
-    <a href="#"><p>How to - Blog  </p></a>
-    <a href="#"><p>Youtube Playlist </p></a>
+    <p>Free eBooks</p>
+    <p>Development Tutorial</p>
+    <p>How to - Blog  </p>
+    <p>Youtube Playlist </p>
     </div>
 
     <div  className="Company">
-      <a href="#"><h5>Link</h5></a>
+      <h5>Link</h5>
       <br />
-    <a href="#"><p>Free eBooks  </p></a>
-    <a href="#"><p>Development Tutorial</p></a>
-    <a href="#"><p>How to - Blog  </p></a>
-    <a href="#"><p>Youtube Playlist  </p></a>
+    <p>Free eBooks  </p>
+    <p>Development Tutorial</p>
+    <p>How to - Blog  </p>
+    <p>Youtube Playlist  </p>
     </div>
 
   </div>
@@ -63,10 +63,10 @@ const Footer = () => {
 
 <div  className="last-bar">
   <p>© 2023 Crito - Consulting Company Inc. All Rights Reserved.</p>
-  <div  className="socialmedia-bar"><a href="http://facebook.com/" target="_blank"><i  className="fa-brands fa-facebook"></i></a>
-    <a href="http://twitter.com/" target="_blank"><i  className="fa-brands fa-square-x-twitter"></i></a>
-    <a href="http://instagram.com/" target="_blank"><i  className="fa-brands fa-instagram"></i></a>
-    <a href="http://linkedin.com/" target="_blank"><i  className="fa-brands fa-linkedin"></i></a>
+  <div  className="socialmedia-bar"><a href="http://facebook.com/" target="_blank" rel="noreferrer"><i  className="fa-brands fa-facebook"></i></a>
+    <a href="http://twitter.com/" target="_blank" rel="noreferrer"><i  className="fa-brands fa-square-x-twitter"></i></a>
+    <a href="http://instagram.com/" target="_blank" rel="noreferrer"><i  className="fa-brands fa-instagram"></i></a>
+    <a href="http://linkedin.com/" target="_blank" rel="noreferrer"><i  className="fa-brands fa-linkedin"></i></a>
   </div>
   
  </div>

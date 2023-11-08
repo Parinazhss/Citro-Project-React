@@ -1148,8 +1148,9 @@ color: #F94D1C;
   text-align: start;
   margin-bottom: 30px;
 }
-.contact-form .container .btn-yellow {
+.contact-form .container button {
   padding: 12px 40%;
+  color: #ebb733;
 }
 
 .location-map .container {

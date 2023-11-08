@@ -7,7 +7,6 @@ import img_two from '../assets/images/pic2.svg'
 import img_three from '../assets/images/pic3.svg'
 import img_four from '../assets/images/pic4.svg'
 import img_dot from '../assets/images/dot.svg'
-import img_stars from '../assets/images/Star.svg'
 import MeetTextBox from '../components/MeetTextBox'
 import MeetClientBox from '../components/MeetClientBox'
 import img_clientone from '../assets/images/client1.svg'
@@ -77,7 +76,8 @@ const MeetTeam = () => {
     </div>
 
     <div className="center-content">
-      <a className="btn-black" href="reviews.html"> All Reviews <i className="fa-solid fa-arrow-up"></i></a>
+      
+      <Button type="" text="All Reviews" url="reviews.html" />
     </div>
      
 

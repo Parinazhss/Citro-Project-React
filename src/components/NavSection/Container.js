@@ -1,7 +1,7 @@
 import './Container.css'
 import React from 'react'
 import logotype from '../../assets/images/Logo.svg'
-import Button from '../Generics/Button'
+
 import { NavLink , Link } from 'react-router-dom'
 
 const Container = () => {
@@ -29,10 +29,10 @@ const Container = () => {
       </div>
       </div>
       
-      <div className="socialmedia-bar"><a href="http://facebook.com/" target="_blank"><i className="fa-brands fa-facebook"></i></a>
-        <a href="http://twitter.com/" target="_blank"><i className="fa-brands fa-square-x-twitter"></i></a>
-        <a href="http://instagram.com/" target="_blank"><i className="fa-brands fa-instagram"></i></a>
-        <a href="http://linkedin.com/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
+      <div className="socialmedia-bar"><a href="http://facebook.com/" target="_blank" rel="noreferrer"><i className="fa-brands fa-facebook"></i></a>
+        <a href="http://twitter.com/" target="_blank" rel="noreferrer"><i className="fa-brands fa-square-x-twitter"></i></a>
+        <a href="http://instagram.com/" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a>
+        <a href="http://linkedin.com/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
       </div>
       <div className="menu"> 
         <nav>
