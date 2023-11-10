@@ -29,11 +29,10 @@ const OurNews = () => {
   {articles.map(article => (
     <div className="article-item" key={article.id}>
       <img src={article.imageUrl} alt="" />
+      <p>{article.category}</p>
       <h3>{article.title}</h3>
       <p>{article.content}</p>
-      <h5>{article.author}</h5>
-      <p>{article.published}</p>
-      <p>{article.category}</p>
+    
     </div>
   ))}
 </div>

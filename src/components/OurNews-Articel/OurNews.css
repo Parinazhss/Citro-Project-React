@@ -1,43 +1,45 @@
-/* OurNews.css */
+h1{
+  color: #191919;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  padding-top: 40px;
+  margin-left: 20px;
+}
 
-/* Skapa en CSS Grid-container för dina artiklar */
+
 .article-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 kolumner med lika bredd */
-    grid-gap: 20px; /* Avstånd mellan grid-elementen */
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px; 
   }
   
-  /* Stil för varje enskild artikel */
+ 
   .article-item {
-    border: 1px solid #ccc;
+    
     padding: 20px;
-    text-align: center;
-    background-color: #f9f9f9;
-   
+  
+  
   }
   
-  /* Justera storleken på bilder för att passa grid-cellen */
+  
   .article-item img {
     max-width: 100%;
-    /* OurNews.css */
+    height: 390px;
+    width: 650px;
+    margin-bottom: 20px;
+    
 
-/* Skapa en CSS Grid-container för dina artiklar */
+
 .article-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 kolumner med lika bredd */
-    grid-gap: 20px; /* Avstånd mellan grid-elementen */
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px; 
   }
   
-  /* Stil för varje enskild artikel */
-  .article-item {
-    border: 1px solid #ccc;
-    padding: 20px;
-    text-align: center;
-    background-color: #f9f9f9;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  }
   
-  /* Justera storleken på bilder för att passa grid-cellen */
+ 
+  
   .article-item img {
     max-width: 100%;
     height: auto;
