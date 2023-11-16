@@ -4,10 +4,17 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Contact from './views/Contact'
-import News from './views/News'
-import NewsArtikel from './views/NewsArtikel'
-import Notfound from './views/Notfound'
+
+
+
 import Home from './views/Home'
+import Services from './views/Services';
+
+
+import { ArticleProvider } from './contexts/ArticleContext';
+import Articles from './views/Articles';
+import ArticleDetials from './views/ArticleDetials';
+
 
 
 
@@ -19,17 +26,22 @@ root.render(
   <React.StrictMode>
   
     <BrowserRouter >
-    <Routes>
+   <ArticleProvider>
+   <Routes>
       <Route path='/' element= {<Home/>} />
       <Route path='/Contacts' element= {<Contact/>} />
-      <Route path='/News' element= {<News/>} />
-      <Route path='/NewsArtikel' element= {<NewsArtikel/>} />
-      <Route path='*' element= {<Notfound/>} />
+      <Route path='/News' element= {<Articles/>} />
+      <Route path='/Article/:id' element= {<ArticleDetials/>} />
+      <Route path='/Services' element={<Services/>} />
+    
      
 
       
 
     </Routes>
+   </ArticleProvider>
+    
+   
     </BrowserRouter>
     
   </React.StrictMode>

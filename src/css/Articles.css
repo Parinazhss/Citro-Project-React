@@ -1,0 +1,44 @@
+ .articles-section .container h1 {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 700;
+        font-size: 45px;
+        padding-top: 40px;
+        margin-left: 20px;
+    
+}
+
+
+.articles {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Tre kolumner med lika bredd */
+        grid-gap: 20px; /* Avstånd mellan grid-element */
+      }
+      
+      .article-item {
+        border: 1px solid #ddd; /* Ram runt varje artikel */
+        padding: 10px; /* Inre utfyllnad */
+      }
+      
+      .image {
+        max-width: 100%; /* Säkerställ att bilden inte överskrider förälderns bredd */
+      }
+      
+      .category {
+        font-weight: bold; /* Fetstil kategori */
+      }
+      
+      .title {
+        margin-top: 10px; /* Avstånd över titeln */
+      }
+      
+      .content {
+        margin-top: 10px; /* Avstånd över innehållet */
+      }
+
+      .article-item img {
+        max-width: 100%;
+        height: 390px;
+        width: 650px;
+        margin-bottom: 20px;
+        
+      }    

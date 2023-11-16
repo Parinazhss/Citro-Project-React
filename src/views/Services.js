@@ -1,24 +1,23 @@
 import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import ShowcaseNews from '../components/ShowcaseNews'
-import OurNews from '../components/OurNews-Articel/OurNews'
 
 
-const News = () => {
+const Services = () => {
   return (
     <div className="wrapper">
     <Header />
     <main>
-   <ShowcaseNews/>
-   <OurNews />
+        
+        <br/>
+   <p>Page is Updating...</p>
+   <br/>
     </main>
     <Footer />
      
    
   </div>
   )
-  
 }
 
-export default News
+export default Services
