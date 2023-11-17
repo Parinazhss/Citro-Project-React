@@ -57,6 +57,9 @@
 .article-details{
   margin-left: 15%;
   border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .article-details .title h1{
   font-family: "DM Sans", sans-serif;
@@ -68,4 +71,49 @@
 .details .article-news{
   background-color: #F0EFE9;
   padding-bottom: 20px;
+}
+
+.article-details .sideboxes {
+ 
+  margin-right: 15%;
+  margin-bottom: 25%;
+  margin-top: 15%;
+  text-align: left;
+  width: 400px;
+  
+}
+
+.article-details .sideboxes h5{
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 35px;
+  
+}
+
+.article-details .sideboxes h4{
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
+.article-details .sideboxes p{
+  margin-left: 35px;
+}
+.article-details .sideboxes .box1{
+  margin-top: 15px;
+}
+.article-details .sideboxes .box2{
+  margin-top: 15px;
+}
+
+.article-details .sideboxes .searchbox input{ 
+  margin-top: 40px;
+ background:  #f3f3f3;
+ padding: 10px;
+  border-radius: 40px;
+  width: 400px;
+  border: none;
 }

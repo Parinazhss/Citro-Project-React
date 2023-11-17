@@ -5,7 +5,8 @@ import Header from '../components/Header'
 import ShowcaseNews from '../components/ShowcaseNews'
 import ArticelNews from '../components/ArticelNews'
 import Footer from '../components/Footer'
-import '../css/ArticleDetails.css'
+
+
 
 const ArticleDetials = () => {
     const {Article , getArticle, clearArticle} = useArticles()
@@ -67,16 +68,58 @@ venenatis eleifend. Ut nonummy.<br/><br/>
               morbi tristique senectus et <br/>netus et malesuada fames ac turpis egestas.<br/><br/> </p></div>
 
 
-             </div> 
+             </div>
+
+             <div className='sideboxes'>
+             <div className='searchbox'> 
+             
+              <input type="text"  placeholder="Type to search..." />
+              </div>
+
+              <div  className='box1 border' >
+                  <h4>Recent Posts</h4>
+                  <br/>
+                    <h5>How To Blow Through Capital At An <br/> Incredible Rate</h5>
+                    <p>Jan 14, 2020</p>
+                    <hr />
+                    <h5>Design Studios That Everyone Should <br/>Know About? </h5>
+                    <p>Jan 14, 2020</p>
+                    <hr />
+                    <h5>How did we get 1M+ visitors in 30 days<br/> without anything!</h5>
+                    <p>Jan 14, 2020</p>
+                    <hr />
+                    <h5>Figma On Figma: How We Built Our<br/> Website Design System</h5>
+                    <p>Jan 14, 2020</p>
+                    <hr />
+                   
+        </div>
+
+              <div  className='box2 border' >
+           
+              <h4>Categories</h4>
+                  <br/>
+                    <h5>Technology  -  20 Posts<br/>
+                        Freelancing  -  07 Posts<br/>
+                         Writing  -  16 Posts<br/>
+                          Marketing  -  11 Posts<br/>
+                           Business  -  35 Posts<br/>
+                            Education  -  14 Posts<br/></h5><br/>
+                    
+             </div>
+
+                  </div>
+          
+
              </section>
          )
          :
          (
             <div> TEST </div>
          )
-         
+          
 
        }
+        
        <ArticelNews />
        </main>
          <Footer />
