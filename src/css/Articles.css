@@ -15,12 +15,14 @@
       }
       
       .article-item {
-        border: 1px solid #ddd; /* Ram runt varje artikel */
+       
         padding: 10px; /* Inre utfyllnad */
+        
       }
       
       .image {
-        max-width: 100%; /* Säkerställ att bilden inte överskrider förälderns bredd */
+        max-width: 100%; 
+        
       }
       
       .category {
@@ -33,12 +35,37 @@
       
       .content {
         margin-top: 10px; /* Avstånd över innehållet */
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+      }
+      .text-mitten h5{
+        font-family: "DM Sans", sans-serif;
+        font-size: 22px;
+       font-weight: 700;
+       
       }
 
       .article-item img {
         max-width: 100%;
-        height: 390px;
-        width: 650px;
+        height: 420px;
+        width: 820px;
         margin-bottom: 20px;
+        margin-top: 20px;
         
       }    
+
+.article-details{
+  margin-left: 15%;
+  border: none;
+}
+.article-details .title h1{
+  font-family: "DM Sans", sans-serif;
+        font-size: 45px;
+       font-weight: 700;
+       margin-top: 20px;
+}
+
+.details .article-news{
+  background-color: #F0EFE9;
+  padding-bottom: 20px;
+}
